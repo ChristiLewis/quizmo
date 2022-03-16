@@ -1,5 +1,6 @@
-# quizmo
-### A timed quiz game, quizmo!
+# **quizmo**
+
+### *A timed quiz game, quizmo!*
 * GIVEN the development community is cooperative and playful, a game-like quiz will help hone and guage skills to stay competetive yet still have fun!
 
 ## Table of Contents
@@ -38,17 +39,16 @@
 ## Usage
 * JavaScript developers worldwide.
 
-! [quizmo](assets/images/screenshot-quizmo.png)
-'''
-[quizmo](assets/images/tbLogo-long.png)
-'''
+![quizmo logo](assets/images/screenshot-quizmo.png)
+\ [quizmo](https://christilewis.github.io/quizmo/)
+
 
 ## Credits
 * This is Christi Lewis' project assignment submitted for review [UM's Coding Bootcamp](https://bootcamp.miami.edu/coding/)
 
 
 ## License
-* Contents are credited as inspired by the bootcamp mentioned above.
+* Contents are credited as inspired by the bootcamp mentioned above. UM Coding Bootcamp content it primarily MIT license, open source.
 
 ## Badges
 * There are no badges generated at this time. For more information: [shields.io](https://shields.io/)
