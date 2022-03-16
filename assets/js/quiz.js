@@ -5,7 +5,7 @@ let timerEl3 = document.getElementById('thirdI');
 let timerEl4 = document.getElementById('fourthZ');
 let timerEl5 = document.getElementById('fifthM');
 let timerEl6 = document.getElementById('sixthO');
-let timerEl = document.getElementById('quiz')
+let quizEl = document.getElementById('quiz')
 
 let message = 
     `Inside the HTML document, where do you place your JavaScript code?', 'What operator is used to assign a value to a declared variable?', 'What are the six primitive data types in JavaScript?', 'What is the difference between && and ||?', 'How do we declare a conditional statement in JavaScript?', 'From the given array ["a", "b", "c", "d"] which index is the letter "b" on?`
@@ -39,7 +39,7 @@ function countdown() {
             timerEl6.textContent = timeLeft + ' O';
             timeLeft--; 
         } else if (timeLeft === 1) {
-            timerEl.textContent = timeLeft + ` GO! ${message.split(' ')}` 
+            quizEl.textContent = timeLeft + ' GO!';
             timeLeft--;
         } else {
             //AT ZERO SET ALL TIMERS TO AN EMPTY STRING
@@ -69,12 +69,12 @@ function displayMessage() {
             clearInterval(msgInterval);
         } else {
             //DISPLAY ONE QUESTION OF THE MESSAGE
-            mainEl.textContent = questions
+            quizEl.textContent = questions
             [questionCount];
             questionCount++;
         }
 
-    }, 1000);
+    }, 700);
 }
 
 countdown();
